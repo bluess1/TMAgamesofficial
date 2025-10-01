@@ -1,8 +1,8 @@
 import { NextSeoProps } from 'next-seo'
 
-const TITLE = 'Garlic phone'
-const DESCRIPTION = 'Garlic phone'
-const BASE_URL = 'https://garlicphone.vercel.app'
+const TITLE = 'TMA Games Gartic Phone' // Or whatever you want your game's title to be
+const DESCRIPTION = 'Play Gartic Phone with friends on TMA Games!' // Your description
+const BASE_URL = 'https://tmagames.vercel.app' // <--- YOUR VERCEL URL
 
 const SEO: NextSeoProps = {
   title: TITLE,
@@ -18,7 +18,7 @@ const SEO: NextSeoProps = {
     images: [{ url: `${BASE_URL}/social.jpeg`, alt: TITLE }],
   },
   twitter: {
-    handle: '@durancristhian@gmail.com',
+    handle: 'hi',
     cardType: 'summary_large_image',
   },
 }
