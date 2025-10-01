@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMA Games</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f2f7; /* Light blue background */
+            color: #333;
+            text-align: center;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background-color: #2196f3; /* Blue header */
+            color: #fff;
+            padding: 1.5em 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        h1 {
+            margin-top: 0;
+            margin-bottom: 0.8em;
+            font-size: 2.5em;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 25px; /* Space between nav items */
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        nav ul li a:hover {
+            background-color: #1976d2; /* Darker blue on hover */
+            transform: translateY(-2px);
+        }
+        .container {
+            flex: 1; /* Allows container to grow and push footer down */
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #007bff;
+            margin-bottom: 25px;
+            font-size: 2em;
+        }
+        p {
+            margin-bottom: 1.2em;
+            font-size: 1.1em;
+            line-height: 1.7;
+            color: #555;
+        }
+        .game-link {
+            display: inline-block;
+            background-color: #4CAF50; /* Green button */
+            color: #fff;
+            padding: 15px 35px;
+            text-decoration: none;
+            border-radius: 30px; /* Pill-shaped button */
+            margin-top: 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+        }
+        .game-link:hover {
+            background-color: #43A047; /* Darker green on hover */
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+        .image-placeholder {
+            margin-top: 40px;
+            padding: 30px;
+            background-color: #f0f8ff; /* Lighter blue placeholder */
+            border-radius: 8px;
+            border: 2px dashed #a7d9ef; /* Dashed border */
+            color: #777;
+            font-style: italic;
+            font-size: 1em;
+        }
+        footer {
+            margin-top: auto; /* Pushes footer to the bottom */
+            padding: 25px;
+            background-color: #2196f3; /* Match header blue */
+            color: #fff;
+            box-shadow: 0 -4px 8px rgba(0,0,0,0.2);
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to TMA Games!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!-- IMPORTANT: Replace #GARTIC_PHONE_URL# with the actual URL of your deployed Gartic Phone game -->
+                <li><a href="#GARTIC_PHONE_URL#">Gartic Phone</a></li>
+                <!-- Add more game links here later if you add more games -->
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Your Hub for Fun Games</h2>
+        <p>Explore our growing collection of exciting online games. Get ready to challenge your friends, test your creativity, and have a blast!</p>
+        <p>Start your gaming adventure with our popular Gartic Phone clone.</p>
+        
+        <!-- IMPORTANT: Replace #GARTIC_PHONE_URL# with the actual URL of your deployed Gartic Phone game -->
+        <a href="#GARTIC_PHONE_URL#" class="game-link">Play Gartic Phone Now!</a>
+
+        <div class="image-placeholder">
+            <p>
+                This is a placeholder for a future image or a graphical element showcasing TMA Games.
+                Perhaps a cool logo, a collage of game screenshots, or an illustration of friends playing games.
+            </p>
+            <p>
+                Once you have an image, you can replace this entire `div` with an `<img>` tag!
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 TMA Games. All rights reserved.</p>
+        <p>Made with passion for fun.</p>
+    </footer>
+</body>
+</html>

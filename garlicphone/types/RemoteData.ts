@@ -1,0 +1,6 @@
+export enum REMOTE_DATA {
+  IDLE = 'IDLE',
+  LOADING = 'LOADING',
+  ERROR = 'ERROR',
+  SUCCESS = 'SUCCESS',
+}
