@@ -1,6 +1,0 @@
-export enum REACTION_TYPE {
-  LOVE = 'LOVE',
-  SMILE = 'SMILE',
-  THUMB_UP = 'THUMB_UP',
-  THUMB_DOWN = 'THUMB_DOWN',
-}
